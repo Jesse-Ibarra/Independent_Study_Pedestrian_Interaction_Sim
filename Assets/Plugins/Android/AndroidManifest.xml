@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.unity3d.player"
+          android:versionCode="1"
+          android:versionName="1.0"
+          android:installLocation="auto">
+
+  <!-- BLUETOOTH permissions for bHaptics -->
+  <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+  <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" android:minSdkVersion="31" />
+
+  <!-- Eye tracking permission for Meta headsets -->
+  <uses-permission android:name="com.oculus.permission.EYE_TRACKING"/>
+
+  <!-- Oculus VR required features -->
+  <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
+
+  <!-- Required for Bluetooth scanning targeting API 30+ -->
+  <queries>
+    <package android:name="com.bhaptics.player" />
+  </queries>
+
+  <application
+      android:label="@string/app_name"
+      android:icon="@mipmap/app_icon"
+      android:allowBackup="false"
+      android:supportsRtl="true">
+
+    <activity android:name="com.unity3d.player.UnityPlayerActivity"
+              android:label="@string/app_name"
+              android:launchMode="singleTask"
+              android:screenOrientation="sensorPortrait"
+              android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+              android:hardwareAccelerated="true"
+              android:exported="true"
+              android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+              android:excludeFromRecents="true">
+              
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="com.oculus.intent.category.VR" />
+      </intent-filter>
+
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="com.oculus.vr.focusaware" android:value="true" />
+    </activity>
+
+    <!-- Meta Quest splash and device support -->
+    <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="false" />
+    <meta-data android:name="com.oculus.ossplash.background" android:value="black" />
+    <meta-data android:name="com.oculus.telemetry.project_guid" android:value="9e420123-3a45-4d62-91ba-0e992ca96883" />
+    <meta-data android:name="com.oculus.supportedDevices" android:value="quest2|questpro|quest3|quest3s" tools:replace="android:value" />
+
+  </application>
+</manifest>
