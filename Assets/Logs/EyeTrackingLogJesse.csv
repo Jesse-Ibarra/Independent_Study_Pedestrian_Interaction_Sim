@@ -1,0 +1,45 @@
+Time,Target,TargetPos,TargetScale,InitialHit,AvgGazeHit,CenterError,EyeToTargetDistance,ValidFrames,ExpectedFrames,GazeHitRate,InitialHit%,AvgGaze%
+
+--- New Session: 7/2/2025 2:10:48 PM ---
+26.9482,Middle Bottom Target,10.06 1.82 20.00,1.00 1.00 0.10,10.03 1.49 19.96,10.02 1.46 19.97,0.3584,5.6875,215,216,1.00,65.4,71.7
+31.9609,Middle Top Target,10.06 5.96 20.00,1.00 1.00 0.10,9.86 6.31 19.97,9.89 6.36 19.98,0.4266,7.0985,145,216,0.67,80.1,85.3
+36.9730,Right Bottom Target,12.16 1.81 20.00,1.00 1.00 0.10,11.96 1.46 19.97,12.02 1.51 19.96,0.3339,6.0928,215,212,1.01,81.2,66.8
+41.9851,Left Bottom Target,8.03 1.82 20.00,1.00 1.00 0.10,7.94 1.36 19.98,7.98 1.37 19.98,0.4553,6.0127,168,215,0.78,93.6,91.1
+46.9970,Middle Middle Target,10.06 3.87 20.00,1.00 1.00 0.10,9.91 3.84 19.95,9.93 3.86 19.95,0.1384,6.0809,215,216,1.00,31.7,27.7
+52.0089,Right Middle Target,12.16 3.93 20.00,1.00 1.00 0.10,12.10 3.88 19.95,12.07 3.85 19.95,0.1240,6.4828,215,216,1.00,18.3,24.8
+57.0207,Left Top Target,8.03 5.96 20.00,1.00 1.00 0.10,7.83 5.99 19.96,7.84 5.87 19.96,0.2173,7.3597,215,214,1.00,41.4,43.5
+62.0336,Left Middle Target,8.03 3.85 20.00,1.00 1.00 0.10,7.81 3.57 19.97,7.80 3.58 19.97,0.3493,6.3748,215,209,1.03,70.9,69.9
+67.0442,RIght Top Target,12.16 5.96 20.00,1.00 1.00 0.10,11.93 6.15 19.96,11.95 6.20 19.96,0.3135,7.4290,215,256,0.84,59.4,62.7
+
+--- New Session: 7/2/2025 3:26:16 PM ---
+12.3292,Middle Bottom Target,10.06 1.82 20.00,1.00 1.00 0.10,null,null,null,null,0,220,0.00,null,null
+17.3411,Left Top Target,8.03 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+22.3521,RIght Top Target,12.16 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,214,0.00,null,null
+27.3631,Left Bottom Target,8.03 1.82 20.00,1.00 1.00 0.10,null,null,null,null,0,216,0.00,null,null
+32.3749,Right Middle Target,12.16 3.93 20.00,1.00 1.00 0.10,null,null,null,null,0,210,0.00,null,null
+37.3854,Middle Top Target,10.06 5.96 20.00,1.00 1.00 0.10,9.81 4.26 19.99,9.75 5.62 19.99,0.4661,31.6441,7,221,0.03,100.0,93.2
+42.3967,Right Bottom Target,12.16 1.81 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+47.4082,Middle Middle Target,10.06 3.87 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+52.4194,Left Middle Target,8.03 3.85 20.00,1.00 1.00 0.10,null,null,null,null,0,225,0.00,null,null
+
+--- New Session: 7/2/2025 3:27:19 PM ---
+72.9210,Middle Bottom Target,10.06 1.82 20.00,1.00 1.00 0.10,null,null,null,null,0,219,0.00,null,null
+77.9326,Left Top Target,8.03 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,214,0.00,null,null
+82.9442,RIght Top Target,12.16 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,207,0.00,null,null
+87.9539,Left Bottom Target,8.03 1.82 20.00,1.00 1.00 0.10,null,null,null,null,0,219,0.00,null,null
+92.9661,Right Middle Target,12.16 3.93 20.00,1.00 1.00 0.10,null,null,null,null,0,219,0.00,null,null
+97.9774,Middle Top Target,10.06 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,219,0.00,null,null
+102.9885,Right Bottom Target,12.16 1.81 20.00,1.00 1.00 0.10,null,null,null,null,0,229,0.00,null,null
+108.0000,Middle Middle Target,10.06 3.87 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+113.0114,Left Middle Target,8.03 3.85 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+
+--- New Session: 7/2/2025 3:28:34 PM ---
+146.8909,Middle Bottom Target,10.06 1.82 20.00,1.00 1.00 0.10,9.66 1.52 20.00,9.67 1.52 20.00,0.4918,31.3448,2,225,0.01,98.9,98.4
+151.9021,Left Top Target,8.03 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,225,0.00,null,null
+156.9133,RIght Top Target,12.16 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,221,0.00,null,null
+161.9246,Left Bottom Target,8.03 1.82 20.00,1.00 1.00 0.10,null,null,null,null,0,219,0.00,null,null
+166.9365,Right Middle Target,12.16 3.93 20.00,1.00 1.00 0.10,null,null,null,null,0,213,0.00,null,null
+171.9471,Middle Top Target,10.06 5.96 20.00,1.00 1.00 0.10,null,null,null,null,0,222,0.00,null,null
+176.9586,Right Bottom Target,12.16 1.81 20.00,1.00 1.00 0.10,null,null,null,null,0,217,0.00,null,null
+181.9702,Middle Middle Target,10.06 3.87 20.00,1.00 1.00 0.10,null,null,null,null,0,214,0.00,null,null
+186.9811,Left Middle Target,8.03 3.85 20.00,1.00 1.00 0.10,null,null,null,null,0,218,0.00,null,null
